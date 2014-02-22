@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main ()
+{
+	int a,b;
+	printf("the frist number is:");
+	scanf("%d",&a);
+	printf("the second number is :");
+	scanf("%d",&b);
+	printf("a+b=%d\n",a+b);
+	printf("a-b=%d\n",a-b);
+	printf("a*b=%d\n",a*b);
+	printf("a/b=%d\n",a/b);
+    system("pause");
+	return 0;
+}
